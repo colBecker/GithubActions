@@ -97,7 +97,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, "1"));
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, null));
         }
-        public void Power()
+        public void Power_Valid()
         {
             Assert.AreEqual(3, Program.Power("1", "2"));
             Assert.AreEqual(5, Program.Power("3", "2"));
